@@ -27,7 +27,9 @@ class User:
 
 class Admin:
     def __init__(self):
-        self.food_items = []
+        self.food_items = [FoodItem(1, "Tandoori Chicken", "4 piece", 240.0, 10, 50),
+            FoodItem(2, "Vegan Burger", "1 piece", 320.0, 15, 30),
+            FoodItem(3, "Tuffle Cake", "500 mg", 900.0, 5, 4000),]
 
 def display_food_menu(food_items):
     print("Food Menu:")
